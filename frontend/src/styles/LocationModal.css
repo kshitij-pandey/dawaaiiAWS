@@ -1,0 +1,60 @@
+.location-modal {
+  width: 420px !important;
+  height: 230px !important;
+}
+
+.location-container {
+  /* padding: 10px !important; */
+  margin: 0 !important;
+}
+
+.location-container .mobile-footer {
+  display: none;
+}
+
+.location-container .head {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px 10px;
+  font-family: "gilroybold";
+}
+
+.location-container .text {
+  color: #000;
+  /* color: #969696; */
+  padding: 10px 10px 8px;
+  color: #6f7588;
+  font-family: "gilroymedium";
+  font-size: 14px;
+}
+
+.location-container .conf-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+
+}
+.location-container .conf-text span{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 24px;
+}
+.location-container .conf-text span:hover{
+    cursor: pointer;
+}
+.buttonAddLocation button{
+    border: none;
+    background: #00ACEA;
+    text-align: center;
+    color: #fff;
+    border-radius: 100px;
+    width: 385px;
+    height: 44px;
+    align-self: center;
+    margin-top: 1.1rem;
+}

@@ -1,0 +1,79 @@
+*{
+    padding: 0 ;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+  }
+
+  body{
+      overflow: auto !important;
+  }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@font-face {
+    font-family: 'gilroyregular';
+    src: url('./styles/fonts/gilroy-regular.woff') format("woff");
+}
+@font-face {
+    font-family: 'gilroylight';
+    src: url('./styles/fonts/gilroy-light.woff') format("woff");
+}
+@font-face {
+    font-family: 'gilroymedium';
+    src: url('./styles/fonts/gilroy-medium.woff') format("woff");
+}
+@font-face {
+    font-family: 'gilroybold';
+    src: url('./styles/fonts/Gilroy-Bold.woff') format("woff");
+}
+@font-face {
+    font-family: 'samarkannormal';
+    src: url('./styles/fonts/Samarkan_Normal_400.woff') format("woff");
+}
+
+li{
+    list-style-type: none;
+}
+
+.mapstyle{
+    border-radius: '10px';
+    margin-left: '-1rem';
+    width: "534px";
+    height: "200px";
+}
+
+@media only screen and (max-width:600px){
+    .mapstyle{
+        margin-left: '-4rem';
+        width: "600px";
+        height: "200px";
+    }
+}
+
+@keyframes myEffect {
+    0%{
+     opacity:0;
+     transform: translateY(-200%); 
+    }
+   
+   100% {
+     opacity:1;
+     transform: translateY(0);
+    }
+   }

@@ -1,0 +1,247 @@
+.outer-con {
+    padding: 0 0 30px;
+}
+
+.container {
+    margin: 2px 10px 30px 30px;
+}
+
+.container .head {
+    font-size: 40px;
+    font-family: "gilroybold";
+    padding: 0 15px;
+    color: rgba(49, 49, 49, 0.83);
+}
+
+.container .details {
+    font-family: "gilroymedium";
+    margin: 0;
+    padding: 0px 15px;
+    font-size: 25px;
+}
+
+.container .con-sub-head {
+    padding: 0px 15px;
+    font-size: 26px;
+    font-family: "gilroymedium";
+}
+
+.container .rx-content {
+    padding: 10px 15px;
+    font-family: "gilroyregular";
+    font-size: 20px;
+    /* line-height: 35.16px; */
+}
+
+.container .medicines {
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .medicines .medCon {
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .medicines .medCon .med {
+    background-color: #15b6fb;
+    border-radius: 5px;
+    padding: 10px 21px;
+    min-width: 188px;
+    height: 50px;
+    margin-right: 42px;
+    text-align: center;
+    font-family: "gilroymedium";
+    font-size: 22px;
+    line-height: 29.3px;
+    color: #fff;
+}
+
+.container .find-med .text {
+    cursor: pointer;
+    font-family: "gilroymedium";
+    font-size: 22px;
+    color: #000;
+    padding: 10px 10px 10px 15px;
+}
+
+.container .find-med .icon {
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.container .find-med .icon img {
+    height: 30px;
+    width: 30px;
+}
+
+.container .find-med {
+    cursor: pointer;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    justify-content: space-between;
+    background-color: rgba(196, 196, 196, 0.27);
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.container .find-but-con {
+    cursor: pointer;
+    padding: 20px 15px;
+    height: 93px;
+}
+
+.container .find-but-con .find-but {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    background-color: rgba(196, 196, 196, 0.27);
+    border-radius: 10px;
+}
+
+.container .find-but-con .find-but .text {
+    cursor: pointer;
+    font-family: "gilroymedium";
+    font-size: 25px;
+    color: #000;
+    padding: 31px 40px;
+}
+
+.container .find-but-con .find-but .icon {
+    cursor: pointer;
+    padding: 31px 40px;
+}
+
+@media only screen and (max-width: 1205px) {
+    .container .medicines .medCon .find-med {
+        cursor: pointer;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 23%;
+        justify-content: space-between;
+        background-color: rgba(196, 196, 196, 0.27);
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .find-med {
+        width: fit-content !important;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .container .medicines .medCon .find-med {
+        cursor: pointer;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 29%;
+        justify-content: space-between;
+        background-color: rgba(196, 196, 196, 0.27);
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .outer-con {
+        padding: 0 !important;
+    }
+
+    .container {
+        margin: 2px 17px 10px;
+        padding: 0;
+    }
+
+    .container .head {
+        font-size: 20px;
+        padding: 0px !important;
+    }
+
+    .details {
+        padding: 0 !important;
+        font-size: 10px !important;
+    }
+
+    .con-sub-head {
+        font-size: 16px !important;
+        padding: 15px 0 !important;
+    }
+
+    .rx-content {
+        font-size: 12px !important;
+        padding: 0 !important;
+        color: rgb(49, 49, 49, 0.83);
+    }
+
+    .medicines {
+        padding: 0 !important;
+    }
+
+    .medCon {
+        padding: 0 0 15px !important;
+        height: 27px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .med {
+        font-size: 10px !important;
+        font-weight: bold;
+        min-width: none !important;
+        width: 25vw !important;
+        height: 27px !important;
+        margin-right: 30px !important;
+        padding: 8px;
+        line-height: 10px !important;
+    }
+
+    .find-med {
+        font-size: 10px !important;
+        width: 111px !important;
+        height: 27px !important;
+        margin-right: 30px !important;
+        padding: 8px;
+        line-height: 11.72px !important;
+    }
+
+    .container .medicines .medCon .find-med .text {
+        cursor: pointer;
+        font-family: "gilroymedium";
+        font-size: 10px !important;
+        color: #000;
+        padding: 8px !important;
+    }
+
+    .container .medicines .medCon .find-med .icon img {
+        height: 15px;
+        width: 15px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .medCon {
+        width: fit-content;
+    }
+
+    .med {
+        min-width: fit-content !important;
+        width: 40vw !important;
+        margin-right: 20px !important;
+    }
+
+    .find-med {
+        border-radius: 5px !important;
+    }
+}

@@ -1,0 +1,45 @@
+.centre-marker {
+    position: absolute;
+    /*url of the marker*/
+    /* background: url(http://localhost:3000/assets/images/map-location-red-lolipop-shadow.png) */
+    /* no-repeat; */
+    /*center the marker*/
+    top: 50%;
+    left: 50%;
+
+    z-index: 2;
+    /*fix offset when needed*/
+    margin-left: -10px;
+    margin-top: -15px;
+    /*size of the image*/
+    height: 34px;
+    width: 30px;
+
+    cursor: pointer;
+}
+
+.centre-marker img {
+    height: inherit;
+    width: inherit;
+}
+
+
+.info-window{
+    width: 15rem;
+    position: relative;
+    padding: 8px;
+    margin-top: -6rem;
+    margin-left: -7rem;
+    /* top: 50%;
+    left: 50%; */
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    z-index: -1;
+    box-shadow: -3px 6px 13px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -3px 6px 13px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 6px 13px 0px rgba(0,0,0,0.75);
+}
+.info-window h6{
+    font-size: 12px;
+}

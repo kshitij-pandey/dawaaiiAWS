@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.my-modal {
+    width: 430px; /* Occupy the 90% of the screen width */
+    max-width: 90vw;
+}
+
+.login-container {
+    /* padding: 10px !important; */
+    margin: 0 !important;
+}
+
+.login-container .mobile-footer {
+    display: none;
+}
+
+.login-container .head {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 10px;
+    font-family: "gilroybold";
+}
+
+.login-container .text {
+    color: #000;
+    /* color: #969696; */
+    padding: 10px 10px 8px;
+    color: #6f7588;
+    font-family: "gilroymedium";
+    font-size: 14px;
+}
+
+.login-container .text-parttwo {
+    color: #000;
+    /* color: #969696; */
+    padding: 5px 10px 8px;
+    font-family: "gilroymedium";
+    /* font-weight: 300; */
+    color: #6f7588;
+    font-size: 16px;
+}
+
+.login-container .ast {
+    color: red;
+    display: inline;
+}
+
+.login-container .phone-container {
+    width: calc(100% - 10px) !important;
+    cursor: text;
+    margin: 5px 5px 10px;
+    padding: 12px;
+    border-radius: 10px;
+    width: 92%;
+    border: 3px solid #a7d3fc;
+    font-family: "Poppins", sans-serif;
+}
+
+.login-container .phone-container .phone-ico {
+    display: inline;
+    padding: 0 5px;
+}
+
+.login-container .phone-container .code {
+    display: inline;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.login-container .phone-container .phone-no {
+    display: inline;
+}
+
+.login-container .phone-container .phone-no input {
+    border: none;
+}
+
+.login-container .phone-container .phone-no input:focus {
+    outline: none;
+}
+
+.login-container .otp-outer {
+    display: none;
+}
+
+.login-container .resend-container {
+    display: none;
+}
+
+.login-container .tnc {
+    width: 100%;
+    font-size: 14px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "gilroymedium";
+    align-items: center;
+}
+
+.login-container .tnc .tnc-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-container .tnc .tnc-inner div {
+    padding: 0 10px;
+}
+
+.login-container .tnc .tnc-link {
+    cursor: pointer;
+    padding: 0 15px;
+    display: inline;
+    color: #00acea;
+    font-weight: bold;
+    border-left: 2px solid black;
+}
+
+.login-container .tnc input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.login-container .tnc .ckbox {
+    width: 50px;
+    height: 50px;
+}
+
+.login-container .tnc .sep {
+    width: 15px;
+    border: 2px solid black;
+    height: 100%;
+}
+
+.form-control {
+    -webkit-transition: none;
+    transition: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-right: 14px;
+}
+
+.form-control:focus {
+    color: #3f4254;
+    background-color: #ffffff;
+    border-color: #884377;
+    outline: 0;
+}
+
+.form-control.form-control-solid {
+    border: 1px solid rgba(80, 78, 78, 0.42);
+    /* background-color: #f3f6f9;
+    border-color: #f3f6f9; */
+    color: #3f4254;
+    transition: color 0.15s ease, background-color 0.15s ease,
+        border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-control.form-control-solid:active,
+.form-control.form-control-solid.active,
+.form-control.form-control-solid:focus,
+.form-control.form-control-solid.focus {
+    /* background-color: #a7d3fc;
+    border-color: #ebedf3; */
+    border: 2px solid #74b9f9;
+    border-color: #ebedf3;
+    color: #3f4254;
+    transition: color 0.15s ease, background-color 0.15s ease,
+        border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.login-container .resend-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.login-container .resend-container .time {
+    padding: 0 10px;
+    color: #555;
+}
+
+.login-container .submit {
+    padding: 5px;
+    width: 100%;
+}
+
+.login-container .submit button:disabled {
+    cursor: not-allowed;
+}
+
+.login-container .submit button {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    height: 48px;
+    border-radius: 30px;
+    background-color: #00acea;
+    border: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.login-container #verifyOTP {
+    display: none;
+}
+
+.error-outer {
+    text-align: center;
+
+    margin: 10px 5px !important;
+    padding: 12px;
+    border-radius: 10px;
+    width: calc(100% - 10px) !important;
+    color: red;
+    border: 3px solid red;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.spinner {
+    animation: spin infinite 2s linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    /* .my-modal {
+        width: 100%;
+        margin-right: 0%;
+        margin: 0%;
+    } */
+
+    .login-container {
+        min-height: 80vh !important;
+        max-height: 80vh !important;
+        height: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    /* .login-container .overflow-wrapper {
+        position: relative;
+    } */
+
+    .login-container .mobile-footer {
+        margin: 0 10px;
+        width: 85%;
+        display: block;
+        /* position: absolute;
+        bottom: 60px; */
+    }
+    .login-container .submit {
+        /* position: absolute; */
+        /* bottom: 0;
+        left: 0; */
+        padding: 5px;
+        width: 100%;
+    }
+
+    .login-container .submit button {
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        width: 100%;
+        height: 40px;
+        border-radius: 30px;
+        background-color: #00acea;
+        border: none;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .login-container > .upper-con > .tnc {
+        display: none;
+    }
+
+    .my-modal.modal-dialog {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .my-modal .modal-content {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .my-modal .modal-content {
+        min-height: inherit;
+    }
+
+    .login-container {
+        padding: 0;
+    }
+
+    .login-container .mobile-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .login-container .thumb {
+        width: fit-content;
+        margin-right: 10px;
+        display: inline;
+    }
+
+    .login-container .mobile-friendly {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-container .mobile-friendly .head {
+        display: inline;
+        padding: 0;
+    }
+
+    .login-container .mobile-friendly .text-parttwo {
+        display: inline;
+        padding: 0;
+    }
+
+    .text {
+        font-size: 16px !important;
+        padding: 10px 0 15px !important;
+    }
+
+    .text-parttwo {
+        font-size: 16px !important;
+    }
+
+    .tnc {
+        font-size: 14px !important;
+    }
+
+    #otp input {
+        width: 100% !important;
+    }
+
+    .error-outer {
+        font-size: 14px !important;
+        padding: 8px !important;
+    }
+
+    .phone-container {
+        padding: 12px 8px !important;
+    }
+
+    .phone-container .code {
+        padding: 0 8px !important;
+    }
+
+    .phone-container input {
+        font-weight: lighter;
+    }
+}
+
+/* 460px */
+@media only screen and (max-width: 450px) {
+    /* phones */
+    .my-modal {
+        width: 100%; /* Occupy the 90% of the screen width */
+        max-width: 100%;
+        height: 100vh;
+        max-height: 100vh;
+    }
+
+    .mobile-footer {
+        margin: 0 !important;
+        width: 100% !important;
+    }
+
+    .tnc {
+        font-size: 12px !important;
+    }
+
+    .login-container .mobile-friendly .text-parttwo {
+        padding: 0 !important;
+    }
+
+    .login-container {
+        padding: 0 !important;
+    }
+
+    .phone-container {
+        margin: 0 !important;
+        width: 100% !important;
+        font-size: 12px !important;
+    }
+
+    .phone-container .code {
+        padding: 0 8px !important;
+    }
+
+    .error-outer {
+        margin: 8px 0 0 !important;
+        width: 100% !important;
+        font-size: 12px !important;
+    }
+
+    .text {
+        padding: 24px 0 15px !important;
+        font-size: 14px !important;
+    }
+
+    .text-parttwo {
+        padding: 10px 0 15px !important;
+        font-size: 14px !important;
+    }
+
+    .head {
+        padding: 5px 0 0 !important;
+    }
+
+    .thumb img {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    .resend-container {
+        font-size: 13px !important;
+    }
+
+    #otp input {
+        width: 100% !important;
+    }
+
+    .mobile-header {
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgb(240, 235, 235);
+        border-width: 150% !important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .phone-container {
+        padding: 12px 6px !important;
+        margin-right: 20% !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .error-outer {
+        padding: 4px !important;
+        font-size: 10px !important;
+    }
+}

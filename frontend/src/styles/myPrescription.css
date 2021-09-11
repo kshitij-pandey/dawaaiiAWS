@@ -1,0 +1,414 @@
+.header {
+    font-family: "gilroybold";
+    font-size: 30px;
+    color: #545454;
+    display: inline;
+    margin: 30px;
+    margin-left: 12%;
+    padding: 20px;
+    line-height: 60px;
+    background-color: #fff;
+}
+
+.header .blue-text {
+    color: #2797ff;
+    display: inline;
+}
+
+.sub-head {
+    font-family: "gilroylight";
+    font-size: 25px;
+    margin: 30px 30px 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-head .text {
+    font-size: 22px;
+    margin: 5px 20px 5px 0;
+}
+
+.sub-head .uploadButton {
+    margin: 0 0 0 17px;
+    border: 1px #000 solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    cursor: pointer;
+}
+
+.sub-head .uploadButton .icon {
+    padding: 2px 14px 10px;
+    border-right: 1px solid #000;
+}
+
+.sub-head .uploadButton .text {
+    font-size: 15px;
+    width: 82px;
+    margin: 11px 23px;
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.pres-con-con {
+    display: flex;
+    justify-content: center;
+}
+
+.pres-container {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 10px 30px;
+    padding: 10px 20px;
+    font-family: "gilroymedium";
+    font-size: 15px;
+}
+
+.pres-container .pres-date {
+    padding: 5px 0;
+    margin-left: calc(100% - 87.5%);
+}
+
+.pres-container .pres-inner {
+    width: 75%;
+    background-color: rgba(58, 203, 249, 0.27);
+    border-radius: 15px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pres-container .pres-inner .pres-details {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 25px !important;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.pres-container .pres-inner .pres-details .pres-hospital {
+    background-color: #15b6fb;
+    color: #fff;
+    padding: 10px 21px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.pres-container .pres-inner .pres-details .pres-dept {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 21px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.pres-container .pres-inner .pres-details .pres-doc {
+    background-color: #f36d31;
+    color: #fff;
+    padding: 10px 21px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.pres-container .pres-inner .pres-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 55px;
+}
+
+.pres-container .pres-inner .pres-actions .pres-view {
+    padding: 0 25px;
+    cursor: pointer;
+}
+
+.pres-container .pres-inner .pres-actions .pres-but {
+    cursor: pointer;
+}
+
+._loading_overlay_content {
+    margin-top: 50vh !important;
+}
+
+@media only screen and (max-width: 1380px) {
+    .pres-details {
+        padding: 18px 20px !important;
+    }
+
+    .pres-but img {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .pres-inner {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 1330px) {
+    .pres-date {
+        margin-left: calc(100% - 90%) !important;
+    }
+
+    .pres-container .pres-inner {
+        width: 80%;
+    }
+
+    .pres-container .pres-inner .pres-details {
+        padding: 15px 15px !important;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .pres-container {
+        margin: 0;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .pres-container {
+        margin: 0;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1145px) {
+    .pres-details {
+        padding: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .pres-actions {
+        padding: 0 20px 0 0 !important;
+    }
+
+    .pres-view {
+        padding: 0 20px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .pres-container {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .pres-container .pres-inner {
+        font-size: 17px !important;
+    }
+
+    .pres-container .pres-inner .pres-details {
+        padding: 30px 40px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .pres-details {
+        padding: 20px !important;
+    }
+
+    .pres-hospital {
+        padding: 8px 18px !important;
+    }
+    .pres-dept {
+        padding: 8px 18px !important;
+    }
+    .pres-doc {
+        padding: 8px 18px !important;
+    }
+
+    .pres-view {
+        padding: 0 20px 0 0 !important;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .pres-date {
+        margin-left: calc(100% - 95%) !important;
+    }
+    .pres-details {
+        padding: 15px 20px 15px 15px !important;
+    }
+
+    .pres-hospital {
+        padding: 5px 15px !important;
+    }
+    .pres-dept {
+        padding: 5px 15px !important;
+    }
+    .pres-doc {
+        padding: 5px 15px !important;
+    }
+    .pres-inner {
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        font-size: 20px;
+        display: block;
+        height: fit-content;
+        line-height: 23.44px;
+        padding: 0;
+        width: 55%;
+        margin: 20px 19px 20px;
+    }
+
+    .sub-head {
+        padding: 0;
+        height: 36px;
+        margin: 20px 19px 15px;
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+    .uploadButton .icon {
+        padding: 8px 15px 18px !important;
+        position: relative;
+        border-right: none !important;
+    }
+
+    .uploadButton .icon:after {
+        content: "";
+        background: black;
+        position: absolute;
+        bottom: 30%;
+        right: 0;
+        height: 35%;
+        width: 0.75px;
+    }
+
+    .sub-head .text {
+        font-size: 10px;
+        line-height: 11.72px;
+        margin: 0;
+        padding: 0 !important;
+    }
+
+    .pres-date {
+        font-size: 12px;
+    }
+
+    .pres-inner {
+        background-color: #fff !important;
+    }
+
+    .pres-container {
+        padding: 15px;
+    }
+
+    .pres-inner {
+        width: 80% !important;
+    }
+
+    .pres-details {
+        font-size: 10px;
+        line-height: 11.72px;
+        padding: 10px !important;
+        background-color: rgb(58, 203, 249, 0.27);
+        border-radius: 5px;
+        justify-content: flex-start;
+    }
+
+    .pres-hospital {
+        margin: 0 5px !important;
+        padding: 7px !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .pres-dept {
+        margin: 0 5px !important;
+        padding: 7px !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .pres-doc {
+        margin: 0 5px !important;
+        padding: 7px !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .pres-actions {
+        padding: 0 !important;
+    }
+
+    .pres-view {
+        display: none !important;
+    }
+
+    .pres-actions .pres-but {
+        padding: 0 3px;
+    }
+
+    .uploadButton {
+        height: 36px !important;
+        width: fit-content;
+        margin: 0 !important;
+        justify-content: flex-start !important;
+    }
+
+    .uploadButton .text {
+        width: fit-content !important;
+        flex: 1;
+        font-size: 12px !important;
+        margin: 10px !important;
+    }
+
+    .uploadButton img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .pres-container .pres-inner .pres-details {
+        padding: 8px !important;
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .pres-inner {
+        width: 100% !important;
+    }
+    .pres-date {
+        margin-left: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .pres-date {
+        margin-left: 0 !important;
+    }
+    .sub-head {
+        margin: 15px !important;
+    }
+
+    .sub-head .text {
+        font-size: 11px !important;
+    }
+
+    .sub-head .uploadButton .text {
+        font-size: 9px !important;
+    }
+    .sub-head .uploadButton .icon {
+        padding: 8px 10px 18px !important;
+    }
+
+    .pres-container .pres-inner .pres-details {
+        padding: 8px !important;
+        font-size: 10px !important;
+    }
+}

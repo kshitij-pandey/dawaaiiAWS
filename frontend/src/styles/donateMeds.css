@@ -1,0 +1,227 @@
+.mid-buttons button {
+    margin: 30px;
+    border: none;
+    font-family: "Gilroymedium";
+    background-color: #fff;
+    height: 24px;
+    font-size: 20px;
+}
+
+.donate-cont {
+    margin: 0 73px;
+    background-color: #f6ebe6;
+    width: 90%;
+    height: 650px;
+    position: relative;
+}
+
+.donate-cont .text-side {
+    position: absolute;
+    width: 39%;
+    top: 50px;
+    left: 79px;
+}
+
+.donate-cont .banner-img {
+    position: absolute;
+    top: -85px;
+    right: -5.5%;
+}
+
+.donate-cont .banner-img img {
+    width: 600px;
+}
+
+.donate-cont .text-side .text {
+    font-size: 30px;
+    font-family: "Gilroybold";
+    color: #13054b;
+}
+
+.donate-cont .text-side .action-button {
+    padding-top: 60px;
+    display: inline-flex;
+}
+
+.donate-cont .text-side .action-button .ac-btn {
+    padding-right: 20px;
+}
+
+.donate-cont .text-side .action-button .ac-btn button {
+    height: 70px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 20px;
+    font-family: "Gilroybold";
+    border: none;
+    text-align: center;
+}
+
+.donate-cont .text-side .action-button .ac-btn .orange {
+    color: #fff;
+    background-color: #f36d31;
+}
+
+.donate-cont .text-side .action-button .ac-btn .white {
+    background-color: #fff;
+}
+
+.support-cont {
+    margin: 230px 73px;
+    width: 90%;
+    height: 40%;
+}
+
+.support-cont .sup-header {
+    font-family: "Gilroylight";
+    text-align: center;
+    font-size: 100px;
+    font-weight: lighter;
+    color: #ec3b03;
+    margin-bottom: 20px;
+}
+
+.support-cont .sup-header b {
+    font-weight: bold;
+    text-align: center;
+    font-size: 100px;
+    color: #000;
+}
+
+.support-cont .logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-cont .logos .logo {
+    flex: 1;
+    text-align: center;
+}
+
+.mob-donate-con {
+    /* z-index: -1; */
+    width: 95vw;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+.mob-donate-con .mob-main-cont {
+    /* z-index: 1; */
+    padding: 15px 5px;
+    background-color: #f6ebe6;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+.mob-donate-con .mob-main-cont .mob-text {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Gilroybold";
+    color: #13054b;
+    padding-bottom: 10px;
+}
+
+.mob-donate-con .mob-main-cont .mob-btns {
+    z-index: 1000;
+
+    padding-top: 8px;
+    width: 100%;
+}
+
+.mob-donate-con .mob-main-cont .mob-btns .mob-ac-btn {
+    margin: 5px 10px;
+}
+
+.mob-donate-con .mob-main-cont .mob-btns .mob-ac-btn button {
+    margin: 8px 10px;
+    width: 85%;
+    font-size: 18px;
+    height: 45px;
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Gilroybold";
+    border: none;
+    text-align: center;
+    box-shadow: 2px 2px 10px 0.025px #888888;
+}
+
+.orange {
+    color: #fff;
+    background-color: #f36d31;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.mob-donate-con .mob-banner {
+    /* z-index: -1; */
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+.mob-donate-con .mob-banner img {
+    width: 290px;
+    /* width: 70vw; */
+}
+
+.mob-sup-con {
+    padding-top: 80px;
+    width: 95vw;
+    margin: auto;
+    padding-bottom: 60px;
+    /* background-color: #13054b; */
+}
+
+.mob-sup-con .mob-sup-head {
+    padding-top: 5px;
+    text-align: center;
+    font-family: "Gilroybold";
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.mob-sup-con .mob-sup-imgs {
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0 15px;
+}
+
+.mob-sup-con .mob-sup-imgs .imgs-row {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .mob-sup-con .mob-sup-imgs .imgs-row img {
+    width: 100px;
+} */
+
+@media only screen and (max-width: 420px) {
+    .mob-sup-con .mob-sup-imgs {
+        width: 68vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 0 15px;
+    }
+}
