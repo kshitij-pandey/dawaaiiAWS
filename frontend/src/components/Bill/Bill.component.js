@@ -14,7 +14,7 @@ import { submitOrder } from '../../redux/actions/order.action';
 import axios from 'axios';
 import EmptyCart from './EmptyCart';
 const url =
-    window.location.host === "localhost:3000" ? "http://localhost:8000" : "";
+    window.location.host === "3.109.169.235" ? "http://localhost:8000" : "";
 function loadScript(src) {
     return new Promise(resolve => {
         const script = document.createElement('script')

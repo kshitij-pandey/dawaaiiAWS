@@ -1,7 +1,7 @@
 .centre-marker {
     position: absolute;
     /*url of the marker*/
-    /* background: url(http://localhost:3000/assets/images/map-location-red-lolipop-shadow.png) */
+    /* background: url(http://3.109.169.235/assets/images/map-location-red-lolipop-shadow.png) */
     /* no-repeat; */
     /*center the marker*/
     top: 50%;

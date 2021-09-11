@@ -59,7 +59,7 @@ function MyPrescription(props) {
     const history = useHistory();
     const classes = useStyle();
     const url =
-        window.location.host === "localhost:3000"
+        window.location.host === "3.109.169.235"
             ? "http://localhost:4000"
             : "";
 

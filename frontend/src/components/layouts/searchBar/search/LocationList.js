@@ -10,7 +10,7 @@ import {
 } from "../../../../redux/actions/location.action";
 import { clusterSearch } from "../../../../redux/actions/product.action";
 const url =
-    window.location.host === "localhost:3000" ? "http://localhost:8000" : "";
+    window.location.host === "3.109.169.235" ? "http://localhost:8000" : "";
 function LocationList(props) {
     const [locationList, setLocationList] = useState([]);
     const [locality,setLocality]=useState("");

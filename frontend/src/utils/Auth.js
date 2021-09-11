@@ -1,5 +1,5 @@
 const url =
-window.location.host === "localhost:3000"
+window.location.host === "3.109.169.235"
     ? "http://localhost:8000"
     : "";
   
